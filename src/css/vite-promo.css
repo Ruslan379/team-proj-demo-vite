@@ -1,9 +1,25 @@
 /* Vite promo styles */
 .vite-promo {
   padding: 5rem 0;
+  
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  
+    width: 86vw;
+    margin: 0 auto;
+    padding: 0 20px;
+    outline: 2px solid blueviolet;
+
+    .wrapper {
+      max-width: 36rem;
+      outline: 1px dotted yellowgreen;
+    }
+  }
 }
 
-.vite-promo .container {
+/* .vite-promo .container {
   display: flex;
   align-items: center;
   gap: 4rem;
@@ -12,11 +28,11 @@
   margin: 0 auto;
   padding: 0 20px;
   outline: 2px solid blueviolet;
-}
+} */
 
-.vite-promo .wrapper {
+/* .vite-promo .wrapper {
   max-width: 36rem;
-}
+} */
 
 .vite-promo .title,
 .vite-promo .text {
