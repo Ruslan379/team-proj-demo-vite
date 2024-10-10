@@ -11,6 +11,8 @@
     margin: 0 auto;
     padding: 0 20px;
     outline: 2px solid blueviolet;
+    /* ! міксін outline - НЕ ПРАЦЮЄ */
+    /* @include outline($type: dashed, $color: yellow); */
 
     .wrapper {
       max-width: 36rem;
